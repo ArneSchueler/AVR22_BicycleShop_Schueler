@@ -14,17 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LayerNames:
   - Default
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Frame
+  - Seat
+  - Handlebar
+  - Seatpole
+  - Fork
+  - Chain
+  - FrontWheel
+  - RearWheel
+  - PaddleLeft
+  - PaddleRight
+  - GearBAck
   - 
   - 
   - 
