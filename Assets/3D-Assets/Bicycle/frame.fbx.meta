@@ -3,7 +3,52 @@ guid: fee39208c8a22d34a93b88423e94d13d
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: axle-nuts
+    second: {fileID: 2100000, guid: 76db97af82d7b9e4289aa6ae4cb8e659, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: axles
+    second: {fileID: 2100000, guid: 76db97af82d7b9e4289aa6ae4cb8e659, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bb-collar
+    second: {fileID: 2100000, guid: 76db97af82d7b9e4289aa6ae4cb8e659, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bottlecage-nuts
+    second: {fileID: 2100000, guid: 76db97af82d7b9e4289aa6ae4cb8e659, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: headset
+    second: {fileID: 2100000, guid: 76db97af82d7b9e4289aa6ae4cb8e659, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lock-nut
+    second: {fileID: 2100000, guid: 76db97af82d7b9e4289aa6ae4cb8e659, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seat-post-clamp
+    second: {fileID: 2100000, guid: 76db97af82d7b9e4289aa6ae4cb8e659, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seat-post-clamp-bolt
+    second: {fileID: 2100000, guid: 76db97af82d7b9e4289aa6ae4cb8e659, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: seat-post-clamp-nut
+    second: {fileID: 2100000, guid: 76db97af82d7b9e4289aa6ae4cb8e659, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

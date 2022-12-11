@@ -3,7 +3,52 @@ guid: 9e2ac32d4e64b88489c94546d1a20aa8
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grand-bois-tire
+    second: {fileID: 2100000, guid: faf52f05368f83246849311c446358a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hub-bearing
+    second: {fileID: -817613205732023585, guid: 58ecd211fab9bc44a98ef4ba8a5f1efa, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hub-inner-ring
+    second: {fileID: -7255647052170860681, guid: a5c1348b552d78d459074cc26d0249e5, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hubs
+    second: {fileID: -7255647052170860681, guid: a5c1348b552d78d459074cc26d0249e5, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rims
+    second: {fileID: -7255647052170860681, guid: a5c1348b552d78d459074cc26d0249e5, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sidewalls
+    second: {fileID: -7255647052170860681, guid: a5c1348b552d78d459074cc26d0249e5, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: spoke
+    second: {fileID: -7255647052170860681, guid: a5c1348b552d78d459074cc26d0249e5, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: valve
+    second: {fileID: -7255647052170860681, guid: a5c1348b552d78d459074cc26d0249e5, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: valve-cap
+    second: {fileID: -817613205732023585, guid: 58ecd211fab9bc44a98ef4ba8a5f1efa, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
