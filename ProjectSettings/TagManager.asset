@@ -3,7 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Frame
+  - Seat
+  - Seat-Clamp
+  - Handlebar
+  - Paddle-Left
+  - Paddle-Right
+  - Gear-Back
+  - Front-Wheel
+  - Rear-Wheel
+  - Fork
+  - Chain
   layers:
   - Default
   - TransparentFX
