@@ -8,20 +8,12 @@ public class ButtonRotate : MonoBehaviour
     private float RotationSpeedInit;
     [SerializeField] private float RotationSpeed;
 
-    private void OnTriggerEnter(Collider other){
-        Debug.Log("Trigger Entered");
+    public void StartRotation( ){
         RotationSpeedInit = RotationSpeed;
     }
 
-    private void OnTriggerExit(Collider other){
-        Debug.Log("Trigger Exited");
+    public void StopRotation(){
         RotationSpeedInit = 0;
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        RotationSpeedInit = 0;
-
     }
 
     // Update is called once per frame
