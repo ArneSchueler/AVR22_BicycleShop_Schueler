@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Transformers;
@@ -18,12 +19,18 @@ public class assembleBicycle : MonoBehaviour
     [SerializeField]
     public GameObject seatpoleSocket;
 
+    [SerializeField]
+    public GameObject backplate;
+
 
     public void Assemble(){
-        if (bicycleAssembly.transform.childCount < 3){
+        if (bicycleAssembly.transform.childCount < 11){
             Debug.Log("Bicycle cant be assembled");
+            backplate.GetComponent<RawImage>().color = new Color(255, 0, 8, 125);
         }
         else{
+
+            backplate.GetComponent<RawImage>().color = new Color(0, 221, 9, 255);
 
             Debug.Log("Bicycle assembled");
             bicycleAssembly.transform.position = new Vector3(-0.615f, 0.915f, -0.589f);
@@ -69,13 +76,9 @@ public class assembleBicycle : MonoBehaviour
             }
 
             portableBicycle.GetComponent<BoxCollider>().enabled = true;
-            Debug.Log("Position after BoxCollider: " + portableBicycle.transform.position);
-
             portableBicycle.GetComponent<XRGrabInteractable>().enabled = true;
-            Debug.Log("Position after Grab: " + portableBicycle.transform.position);
-
             portableBicycle.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
-            Debug.Log("Position after Rigid: " + portableBicycle.transform.position);
+
         }
     }
 }

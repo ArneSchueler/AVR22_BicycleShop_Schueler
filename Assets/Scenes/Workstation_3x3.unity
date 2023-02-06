@@ -862,6 +862,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 431980230}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &444206060 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6922469058048946451, guid: c6b351a67ceb69140b199996bbbea156, type: 3}
+  m_PrefabInstance: {fileID: 1454224057}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &473734671
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1256,6 +1261,7 @@ MonoBehaviour:
   seatSocket: {fileID: 720702101}
   handlebarSocket: {fileID: 919132149455122231}
   seatpoleSocket: {fileID: 562292418709434622}
+  frontplate: {fileID: 444206060}
 --- !u!114 &524888886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2036,7 +2042,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8376646494505211226, guid: c6b351a67ceb69140b199996bbbea156, type: 3}
       propertyPath: <IsToggled>k__BackingField.onEntered.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8376646494505211226, guid: c6b351a67ceb69140b199996bbbea156, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -2045,7 +2051,7 @@ PrefabInstance:
     - target: {fileID: 8376646494505211226, guid: c6b351a67ceb69140b199996bbbea156, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 524888885}
+      objectReference: {fileID: 909660604}
     - target: {fileID: 8376646494505211226, guid: c6b351a67ceb69140b199996bbbea156, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -2686,6 +2692,7 @@ MonoBehaviour:
   seatSocket: {fileID: 0}
   handlebarSocket: {fileID: 0}
   seatpoleSocket: {fileID: 0}
+  frontplate: {fileID: 0}
 --- !u!1 &1006396471
 GameObject:
   m_ObjectHideFlags: 0
