@@ -27,12 +27,8 @@ public class assembleBicycle : MonoBehaviour
 
             Debug.Log("Bicycle assembled");
             bicycleAssembly.transform.position = new Vector3(-0.615f, 0.915f, -0.589f);
-            // frameSocket.GetComponent<XRSocketInteractor>().socketActive = false;
-            // seatSocket.GetComponent<XRSocketInteractor>().socketActive = false;
-            // seatpoleSocket.GetComponent<XRSocketInteractor>().socketActive = false;
-            // handlebarSocket.GetComponent<XRSocketInteractor>().socketActive = false;
+            
             SceneManager.SetActiveScene(SceneManager.GetSceneByName("Workstation_3x3"));
-            Debug.Log("Before Inst: " + bicycleAssembly.transform.position);
             GameObject portableBicycle = Instantiate(bicycleAssembly);
             Debug.Log("After Inst: " + bicycleAssembly.transform.position);
 
@@ -40,15 +36,10 @@ public class assembleBicycle : MonoBehaviour
             //portableBicycle.transform.position = new Vector3(-0.615f, 0.915f, -0.589f);
             Debug.Log("Position after Instatiation: " + portableBicycle.transform.position);
 
-            for (int i = 0; i<bicycleAssembly.transform.childCount; i++){
+            for (int i = bicycleAssembly.transform.childCount-1; i>=0; i--){
                 GameObject child = bicycleAssembly.transform.GetChild(i).gameObject;
-                            Debug.Log("Before child: " + bicycleAssembly.transform.position);
-
-                Debug.Log(child +" " + child.transform.position);
-                Debug.Log("After child: " + bicycleAssembly.transform.position);
-
                 
-                for (int j = 0; j<portableBicycle.transform.childCount; j++){
+                for (int j = portableBicycle.transform.childCount-1; j>=0; j--){
                     GameObject childNew = portableBicycle.transform.GetChild(i).gameObject;
                     childNew.transform.position = child.transform.position;
                 }
@@ -85,9 +76,6 @@ public class assembleBicycle : MonoBehaviour
 
             portableBicycle.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
             Debug.Log("Position after Rigid: " + portableBicycle.transform.position);
-
-
-
         }
     }
 }

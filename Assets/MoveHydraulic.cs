@@ -4,17 +4,8 @@ using UnityEngine;
 
 public class MoveHydraulic : MonoBehaviour
 {
-    public float speed = 2f;
-    public bool activeUp;
-
-    public void activateUp(){
-        activeUp = true;
-    }
-
-    public void deactivateUp(){
-        activeUp = false;
-    }
-
+    public float speed = 15f;
+    
     public void MoveUp(){
             transform.Translate(0f, 0f,speed * Time.deltaTime);
 
